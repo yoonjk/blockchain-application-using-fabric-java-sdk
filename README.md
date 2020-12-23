@@ -155,9 +155,6 @@ Output:
       Apr 20, 2018 5:11:45 PM org.example.network.CreateChannel main
       INFO: peer1.org1.example.com at grpc://localhost:7056
       Apr 20, 2018 5:11:45 PM org.example.network.CreateChannel main
-      INFO: peer0.org2.example.com at grpc://localhost:8051
-      Apr 20, 2018 5:11:45 PM org.example.network.CreateChannel main
-      INFO: peer1.org2.example.com at grpc://localhost:8056
    ```
 
 ### 4. Deploy and Instantiate the chaincode
@@ -177,21 +174,10 @@ This code pattern uses a sample chaincode `fabcar` to demo the usage of Hyperled
       Apr 23, 2018 10:25:22 AM org.example.network.DeployInstantiateChaincode main
       INFO: fabcar- Chain code deployment SUCCESS
       Apr 23, 2018 10:25:22 AM org.example.client.FabricClient deployChainCode
-      INFO: Deploying chaincode fabcar using Fabric client Org2MSP admin
-      Apr 23, 2018 10:25:22 AM org.example.network.DeployInstantiateChaincode main
-      INFO: fabcar- Chain code deployment SUCCESS
-      Apr 23, 2018 10:25:22 AM org.example.network.DeployInstantiateChaincode main
-      INFO: fabcar- Chain code deployment SUCCESS
-      Apr 23, 2018 10:25:22 AM org.example.client.ChannelClient instantiateChainCode
-      INFO: Instantiate proposal request fabcar on channel mychannel with Fabric client Org2MSP admin
       Apr 23, 2018 10:25:22 AM org.example.client.ChannelClient instantiateChainCode
       INFO: Instantiating Chaincode ID fabcar on channel mychannel
       Apr 23, 2018 10:25:25 AM org.example.client.ChannelClient instantiateChainCode
       INFO: Chaincode fabcar on channel mychannel instantiation java.util.concurrent.CompletableFuture@723ca036[Not completed]
-      Apr 23, 2018 10:25:25 AM org.example.network.DeployInstantiateChaincode main
-      INFO: fabcar- Chain code instantiation SUCCESS
-      Apr 23, 2018 10:25:25 AM org.example.network.DeployInstantiateChaincode main
-      INFO: fabcar- Chain code instantiation SUCCESS
       Apr 23, 2018 10:25:25 AM org.example.network.DeployInstantiateChaincode main
       INFO: fabcar- Chain code instantiation SUCCESS
       Apr 23, 2018 10:25:25 AM org.example.network.DeployInstantiateChaincode main
